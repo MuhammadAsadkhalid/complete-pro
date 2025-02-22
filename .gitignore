@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Node modules
+node_modules/
+
+# Dependency directories (if you use these in certain workflows)
+jspm_packages/
+
+# Environment variables
+.env
+.env.*  # If you have multiple env files (e.g., .env.test)
+
+# Build/Production files
+dist/
+build/
+.out/
+.temp/
+
+# Coverage (if using Jest or other coverage tools)
+coverage/
+.nyc_output/
+
+# IDE/Editor settings
+.vscode/
+.idea/
+
+# Miscellaneous
+*.log
+*.log.*
