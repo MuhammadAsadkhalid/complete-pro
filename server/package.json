@@ -2,15 +2,15 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "dev": "nodemon index.js --ignore 'client/*'"
+    "start": "node index.js", // Production: run with plain Node
+    "dev": "nodemon index.js --ignore 'client/*'" // Local dev: run with nodemon
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@foliojs-fork/fontkit": "^1.9.2",
     "cors": "^2.8.5",
