@@ -2,8 +2,8 @@
   "name": "my-app",
   "version": "1.0.0",
   "scripts": {
-    "start": "cd server && npm run start",  // For production
-    "dev": "cd server && npm run dev"       // For local development
+    "start": "cd server && npm run start",  
+    "dev": "cd server && npm run dev"       
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
