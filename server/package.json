@@ -5,8 +5,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js", // Production: run with plain Node
-    "dev": "nodemon index.js --ignore 'client/*'" // Local dev: run with nodemon
+    "start": "node index.js", 
+    "dev": "nodemon index.js --ignore 'client/*'" 
   },
   "keywords": [],
   "author": "",
